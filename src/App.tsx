@@ -1,11 +1,11 @@
 import React from 'react';
 import Header from './components/header';
-import Main from './pages/main';
+import Dashboard from './pages/main/indext';
 
 const App = () => (
     <div className="App">
       <Header />
-      <Main />
+      <Dashboard />
      </div>
   );
 
